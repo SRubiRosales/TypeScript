@@ -1,7 +1,6 @@
-const message: string = 'Hola mundo';
-const hero = {
-    name: 'Ironman',
-    age:45
-}
-console.log(message);
-console.log(hero.age + 1);
+// Función anónima autoinvocada
+(() => {
+    const a:number = 10;
+    console.log(a);
+    
+})()
