@@ -3,12 +3,15 @@
     let flash = {
         name: 'Barry Allen',
         age: 24,
-        powers: ['Fast', 'Travel along the time']
+        powers: [1, 2]
     };
     let superman = {
         name: 'Clark Kent',
         age: 60,
-        powers: ['Strong']
+        powers: [1],
+        getName() {
+            return this.name;
+        },
     };
     console.log(flash);
 })();
