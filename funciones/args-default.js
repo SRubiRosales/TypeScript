@@ -14,3 +14,4 @@ Los valores por defecto se definen después del tipo de dato variable: type = va
     const name = fullName('Tony', 'Stark', true);
     console.log({ name });
 })();
+//# sourceMappingURL=args-default.js.map

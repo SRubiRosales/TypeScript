@@ -12,3 +12,4 @@
     };
     console.log(flash);
 })();
+//# sourceMappingURL=objects.js.map

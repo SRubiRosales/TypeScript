@@ -11,3 +11,4 @@
     console.log(exist);
     console.log(power);
 })();
+//# sourceMappingURL=any.js.map
