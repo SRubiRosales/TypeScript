@@ -4,7 +4,6 @@
     let exist;
     let power;
     avenger = 'Dr. Strange';
-    //console.log( avenger.charAt(0))
     console.log(avenger.charAt(0));
     avenger = 150.234567;
     console.log(avenger.toFixed(3));

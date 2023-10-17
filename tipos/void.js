@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-    //La funcion no retorna nada
     function callBatman() {
         return;
     }

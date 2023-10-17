@@ -1,7 +1,4 @@
 "use strict";
-/* Los argumentos opcionales van al final
-Los valores por defecto se definen después del tipo de dato variable: type = value
-*/
 (() => {
     const fullName = (firstName, lastName, upper = false) => {
         if (upper) {
