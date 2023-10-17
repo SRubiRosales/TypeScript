@@ -1,10 +1,10 @@
-
-type Automovil = {
-  carroceria: string;
-  modelo: string;
-  antibalas: boolean;
-  pasajeros: number;
-  disparar?: ()=> void;
+(() => {
+  type Automovil = {
+    carroceria: string;
+    modelo: string;
+    antibalas: boolean;
+    pasajeros: number;
+    disparar?: ()=> void;
 };
 
 // Objetos
@@ -71,3 +71,5 @@ let mystique: Charles | Apocalipsis;
 
 mystique = charles;
 mystique = apocalipsis;
+
+})();

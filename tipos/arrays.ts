@@ -5,4 +5,5 @@
     numbers.push(11)
     console.log(numbers)
     villian.forEach(v => console.log(v.toUpperCase()))
+    numbers.forEach(v => console.log(v))
 })();
