@@ -24,6 +24,9 @@ var __rest = (this && this.__rest) || function (s, e) {
         console.log(resto);
     };
     printAvenger(avengers);
+    const avengersArr = ['Capitán América', true, 123.45];
+    const [capitan, ironman, numero] = avengersArr;
+    console.log(ironman, capitan);
 })();
 (() => {
     const nombre = 'Sharon';
