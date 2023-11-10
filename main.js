@@ -18,10 +18,7 @@
     }
     const wolverine = new Xmen('Wolverine', 'Logan');
     const magneto = new Villian('Magneto', 'Magnus');
-    console.log(wolverine.salvarMundo());
-    console.log(magneto.conquistarMundo());
     const printName = (character) => {
-        console.log(character.name);
     };
     printName(wolverine);
 })();
@@ -91,6 +88,5 @@
     const apocalipsis2 = Apocalipsis.callApocalipsis();
     const apocalipsis3 = Apocalipsis.callApocalipsis();
     apocalipsis1.changeName('Xavier');
-    console.log(apocalipsis1, apocalipsis2, apocalipsis3);
 })();
 //# sourceMappingURL=main.js.map
