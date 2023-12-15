@@ -3,5 +3,10 @@ export class Hero {
         public name: string,
         public powerId:number,
         public age:number
-    ) {}
-}
+        ) {}
+    }
+export class Hero2 {}
+export class Hero3 {}
+export class Hero4 {}
+export const PI = 3.14159;
+export const myName = 'Sharon';
