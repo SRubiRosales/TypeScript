@@ -1,4 +1,6 @@
+import { Hero } from './interfaces/hero';
 import { genericFunction, genericFunctionArrow, printObject } from './generics/generics';
+import { Villain } from './interfaces/villain';
 
 printObject(123);
 printObject(new Date());
@@ -9,4 +11,13 @@ printObject('Hola mundo');
 const name = 'Sharon';
 console.log(genericFunction(3.14159).toFixed(2));
 console.log(genericFunction(name).toUpperCase());
-console.log(genericFunctionArrow(new Date().getDate()))
+console.log(genericFunctionArrow(new Date().getDate()));
+
+const deadpool = {
+    name: 'Deadpool',
+    realName: 'Wade Winston Wilson',
+    dangerLevel: 130
+}
+
+console.log(genericFunctionArrow<Hero>(deadpool).name);
+console.log(genericFunctionArrow<Villain>(deadpool).dangerLevel);
