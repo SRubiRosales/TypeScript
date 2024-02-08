@@ -1,6 +1,6 @@
 
 import { genericFunction, genericFunctionArrow, printObject } from './generics/generics';
-import { Villain, Hero } from './interfaces';
+import { Villain, Hero } from '../interfaces';
 
 printObject(123);
 printObject(new Date());
