@@ -1,7 +1,7 @@
 import { getPost } from "./generics/get-post";
 
 getPost(4).then(
-    resp => console.log(resp)
+    post => console.log(post.body.toUpperCase())
 ).catch(
     error => console.error(error)
 ).finally(
