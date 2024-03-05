@@ -10,6 +10,12 @@ const printToConsoleConditional = (print: boolean = false):Function => {
     }
 }
 
+const blockPrototype = function(constructor: Function) {
+    Object.seal(constructor);
+    Object.seal(constructor.prototype);
+}
+
+@blockPrototype
 @printToConsoleConditional( true)
 export class Post {
     public publicAPI: string = 'https://jsonplaceholder.typicode.com'
